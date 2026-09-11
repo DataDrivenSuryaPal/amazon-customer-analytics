@@ -18,6 +18,7 @@ Warning:
  All data in the database will be permanently deleted. proceed with caution and ensure you have proper backups before 
 running this script.
 */
+
 USE master ;
 GO
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'amazon_customer_end_to_end_analysis')

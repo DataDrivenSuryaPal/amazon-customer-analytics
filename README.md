@@ -67,9 +67,8 @@ amazon-sales-customer-analytics/
 │   ├── 04_sales_analysis.sql
 │   ├── 05_customer_analysis.sql
 │   ├── 06_product_analysis.sql
-│   ├── 07_category_analysis.sql
-│   ├── 08_seller_analysis.sql
-│   └── 09_kpi_report.sql
+│   ├── 07_category_analysis.sq
+│   └── 08_kpi_report.sql
 │
 ├── excel/
 │   └── Amazon_Sales_Analytics.xlsx

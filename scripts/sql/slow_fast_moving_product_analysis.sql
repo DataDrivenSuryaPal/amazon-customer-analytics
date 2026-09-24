@@ -22,7 +22,6 @@ SQL function used:
  - CASE WHEN for product segments
 =====================================================================================
 */
-/*Slow-moving vs fast-moving products — quantity sold trends over time*/
 IF OBJECT_ID ('product_quantity_sold_trend','v')
 	IS NOT NULL
 DROP VIEW product_quantity_sold_trend;

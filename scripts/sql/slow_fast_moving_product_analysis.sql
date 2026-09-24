@@ -18,7 +18,7 @@ SQL function used:
  - Aggregate function SUM(), AVG()
  - Window rank function NTILE()
  - Clause GROUP BY()
- - Joining function INNER JOIN()
+ - Joining function INNER JOIN
  - CASE WHEN for product segments
 =====================================================================================
 */

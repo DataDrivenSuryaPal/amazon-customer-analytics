@@ -58,10 +58,11 @@ rfm_final AS(
         CASE 
             WHEN r_score >= 4 AND f_score >= 4 AND m_score >= 4 THEN 'Best Customers'
             WHEN r_score <= 3 AND f_score >= 3 AND m_score >= 3 THEN 'At-Risk Customers'
+             WHEN r_score >= 4 AND f_score <= 4 AND m_score <= 1 THEN 'Promissing Customer'
             WHEN r_score <= 2 AND f_score <= 2 AND m_score <= 2 THEN 'Need Attention'
             WHEN r_score <= 1 AND f_score <= 1 AND m_score <= 1 THEN 'Lost Customer'
             ELSE 'Other'
-        END AS customer_segment
+        END AS CustomerSegment
     FROM rfm_score)
 SELECT
 *

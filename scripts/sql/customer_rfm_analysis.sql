@@ -52,6 +52,9 @@ rfm_final AS(
     SELECT 
         CustomerID,
         CustomerName,
+        recency,
+        frequency,
+        monetary,
         r_score,
         f_score,
         m_score,
